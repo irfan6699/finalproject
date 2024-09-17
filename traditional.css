@@ -1,0 +1,191 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color:#F5E6CA ;
+ 
+}
+body{
+ margin: 0%;
+ padding: 0%;
+ height: 100%;
+ background-color:#556B2F;
+}
+
+.navbar1{
+ height: 52;
+ width: 100%;
+ display: flex;
+ background-color: #F5F5DC;
+ color: #556B2F;
+ border-bottom: 1px solid black;
+ 
+}
+.search{
+ margin-left: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.search input{
+ width: 500px;
+ padding: 5px;
+ border: none;
+ font-size: larger;
+}
+.logo{
+ width: 75px;
+ height: 65px;
+ background-color: bisque;
+ border-radius: 50%;
+ text-align: center;
+ align-content: center;
+ font-size: 12px;
+ color: aqua;
+ margin-right: 30px;
+ margin-left: 10px;
+ 
+}
+.logo:hover{
+ border: 2px solid white;
+}
+.type,.corner-part{
+ width: 400px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+span:hover{
+ border-bottom: 3px solid rgb(25, 48, 25) ;
+}
+span{
+ padding: 7px;
+ margin-right: 5px;
+}
+.search{
+ width: 400px;
+}
+.cart{
+width: 40px;
+height: 30px;
+margin-left: 30px;
+}
+.add{
+  width: 20px;
+  height: 30px;
+  border: none;
+  padding-top: 5px;
+  font-size: x-large;
+}
+.row1,.row2,.row3,.row4,.row5{
+ width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 20px;
+margin-left: 20px;
+}
+.container{
+  height:100%;
+  width: 100%;
+}
+.add-price{
+  display: flex;
+  height: 14%;
+  width: 239px;
+  justify-content: space-between;
+  background-color: #8D6B4C;
+  border: 2px solid navajowhite;
+  text-align: left;
+}
+
+.add-price p {
+  font-size: 18px;        /* Make the price text larger */
+  font-weight: bold;      /* Bold to make it stand out */
+  color: #2F4F4F;         /* Dark slate gray color for a modern look */
+  margin: 10px 0;          /* Space above and below */
+  text-align: left;     /* Center the price */
+  letter-spacing: 1px;    /* Add some spacing between letters */
+}
+
+.add-price button {
+  padding: 8px 15px;      /* Add padding around the button */
+  background-color: #8D6B4C;  /* Consistent color with your overall palette */
+  color: white;           /* White text on the button */
+  border: none;           /* No border */
+    /* Rounded corners */
+  cursor: pointer;        /* Pointer cursor on hover */
+  font-size: 14px;        /* Slightly larger text */
+  transition: background-color 0.3s ease;  /* Smooth color transition */
+}
+
+.add-price button:hover {
+  background-color: #D2A679;  /* Lighter color on hover for contrast */
+}
+
+/*yeh add kiya hu*/
+.t11 {
+ background-image: url(trad1.jpeg.jpg);
+
+}
+.t11,.t12,.t13,.t14,.t21,.t22,.t23,.t24,.t31,.t32,.t33,.t34,.t41,.t42,.t43,.t44{
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-position: bottom;
+ height: 80%;
+ width: 239px;
+ background-color:#8D6B4C;
+ border:2px solid #D2A679;
+}
+
+.t12{
+ background-image: url(trad2.jpeg.jpg);
+
+}
+.t13{
+ background-image: url(trad3.jpeg.jpg);
+
+}
+.t14{
+ background-image: url(trad4.jpeg.jpg);
+
+}
+.t21{
+ background-image: url(trad5.jpeg.jpg);
+ 
+}.t22{
+ background-image: url(trad6.jpeg.jpg);
+ 
+}.t23{
+ background-image: url(trad7.jpeg.jpg);
+
+}.t24{
+ background-image: url(trad8.jpeg.jpg);
+
+}.t31{
+ background-image: url(trad9.jpeg.jpg);
+
+}.t32{
+ background-image: url(trad10.jpeg.jpg);
+
+}.t33{
+ background-image: url(trad11.jpeg.jpg);
+
+}.t34{
+ background-image: url(trad12.jpeg.jpg);
+ 
+}.t41{
+ background-image: url(trad13.jpeg.jpg);
+
+}
+.t42{
+ background-image: url(trad14.jpeg.jpg);
+ 
+}.t43{
+ background-image: url(trad15.jpeg.jpg);
+
+}.t44{
+ background-image: url(trad16.jpeg.jpg);
+}

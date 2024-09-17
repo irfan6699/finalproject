@@ -1,0 +1,231 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-color: #D8E3E7; /* Lighter and neutral background for a modern look */
+}
+
+.navbar1{
+    height: 52px;
+    width: 100%;
+    display: flex;
+    background-color: #2E4C6D; /* Dark Blue for header */
+    color: #F4F4F9; /* Light text color for contrast */
+    border-bottom: 1px solid #556B2F; /* Olive Green for a subtle border */
+}
+.search{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #556B2F; /* Olive Green border */
+    font-size: larger;
+    background-color: #F4F4F9; /* Light input background */
+    color: #333; /* Dark text for readability */
+}
+.logo{
+    width: 75px;
+    height: 65px;
+    background-color: #F5F5DC; /* Bisque */
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    font-size: 12px;
+    color: #2E4C6D; /* Dark Blue for logo text */
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.logo:hover{
+    border: 2px solid #F4F4F9; /* Subtle hover effect with a white border */
+}
+.type, .corner-part{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span:hover{
+    border-bottom: 3px solid #8D6B4C; /* Darker Olive Green on hover */
+}
+span{
+    padding: 7px;
+    margin-right: 5px;
+}
+.search{
+    width: 400px;
+}
+.cart{
+    width: 40px;
+    height: 30px;
+    margin-left: 30px;
+}
+.add{
+    width: 20px;
+    height: 30px;
+    border: none;
+}
+.navbar2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8D6B4C; /* Warm brown for secondary navbar */
+    color: #F5F5DC; /* Bisque color for text */
+}
+.navbar2 span{
+    font-weight: 800;
+    font-size: large;
+}
+.row1, .row2, .row3, .row4{
+    margin: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.row3, .row4{
+    justify-content: space-evenly;
+}
+.stories{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F0F4F8; /* Light blue-gray background */
+}
+.stories1{
+    width: 9%;
+    height: 70%;
+    margin-left: 3%;
+    border-radius: 50%;
+    background-color: #A9BA9D; /* Light green for story elements */
+}
+.stories button{
+    height: 30px;
+    padding: 5px;
+    color: #F5F5DC; /* Light text on buttons */
+    margin-top: 80px;
+    background-color: #8D6B4C; /* Warm brown button background */
+}
+.in img{
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+}
+.in button{
+    width: 50px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 20px;
+    margin-right: 7px;
+    background-color: #A9BA9D; /* Light green button */
+    border: none;
+}
+.stories1:hover{
+    border: 3px solid #2E4C6D; /* Dark Blue hover effect */
+}
+.box{
+    width: 20%;
+    font-weight: bold;
+    background-color: #E1DCD4; /* Light beige for boxes */
+    margin: 10px;
+    justify-content: left;
+}
+.row13, .row14{
+    width: 239.33px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.in{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#boximg, #boximg2, #boximg3, #boximg4, #diwali, #holi, #eid, #christmas, #acc1, #acc2, #acc3, #acc4{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: bottom;
+    height: 80%;
+    width: 239px;
+}
+#boximg{
+    background-image: url(onam.jpg);
+}
+
+#boximg2{
+    background-image: url(pongal.jpg);
+}
+#boximg3{
+    background-image: url(jan.jpg);
+}
+#boximg4{
+    background-image: url(gc.jpeg.jpg);
+}
+
+#diwali{
+    background-image: url(DIWALI.jpeg);
+}
+#holi{
+    background-image: url(HOLI.jpeg.jpg);
+}
+#eid{
+    background-image: url(EID.jpeg.jpg);
+}
+#christmas{
+    background-image: url(CHRISTMAS.jpeg.jpg);
+}
+/* New Additions */
+#acc1{
+    background-image: url(acc1.jpg);
+}
+#acc2{
+    background-image: url(acc2.jpg);
+}
+#acc3{
+    background-image: url(acc3.jpeg.jpg);
+}
+#acc4{
+    background-image: url(acc4.jpeg.jpg);
+}
+
+.slider{
+    margin: 10px;
+    height: 600px;
+    background-color: #FFF; /* White background for slider */
+    width: 60%;
+    background-image: url(jwellery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stories button{
+    border: none;
+    align-items: flex-end;
+}
+.slider p{
+    margin-top: 500px;
+    color: #FFF; /* White text in slider */
+    text-align: center;
+    justify-content: end;
+}
+h2{
+    margin: 30px;
+}
+.class41, .class42, .class43, .class44{
+    width: 20%;
+    font-weight: bold;
+    background-color: #E1DCD4; /* Light beige for these boxes */
+    margin: 10px;
+}
+/* Additional styling for traditional section */
+.shop-traditional{
+    color: #E63946; /* Coral Red for highlighted text */
+}

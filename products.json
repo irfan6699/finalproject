@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name":" LD01 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad1.jpeg.jpg"
+    },
+    {
+        "id": 2,
+        "name":" LD02 LOUNGE CHAIR",
+        "price": 250,
+        "image": "trad2.jpeg.jpg"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LOUNGE CHAIR",
+        "price": 290,
+        "image": "trad3.jpeg.jpg"
+    },
+    {
+        "id": 4,
+        "name":" LD04 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad4.jpeg.jpg"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 300,
+        "image": "trad5.jpeg.jpg"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad6.jpeg.jpg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad7.jpeg.jpg"
+    },
+    {
+        "id": 8,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad8.jpeg.jpg"
+    },
+    {
+        "id": 9,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad9.jpeg.jpg"
+    },
+    {
+        "id": 10,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad10.jpeg.jpg"
+    },
+    {
+        "id": 11,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad11.jpeg.jpg"
+    },
+    {
+        "id": 12,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad12.jpeg.jpg"
+    },
+    {
+        "id": 13,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad13.jpeg.jpg"
+    },
+    {
+        "id": 14,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad14.jpeg.jpg"
+    },
+    {
+        "id": 15,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad15.jpeg.jpg"
+    },
+    {
+        "id": 16,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "trad16.jpeg.jpg"
+    }
+   
+
+]
