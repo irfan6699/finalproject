@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+}
+
+/* Navbar styling */
+.navbar1 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2E4C6D; /* Dark Blue for header */
+    color: #F4F4F9; /* Light text color */
+    border-bottom: 1px solid #556B2F; /* Olive Green border */
+    padding: 0 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    background-color: #F5F5DC; /* Bisque for the logo */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #2E4C6D; /* Dark Blue for logo text */
+    margin-right: 20px;
+    text-align: center;
+}
+
+.logo:hover {
+    border: 2px solid #F4F4F9; /* Subtle hover effect */
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.type span {
+    padding: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: border-bottom 0.3s;
+}
+
+.type span:hover {
+    border-bottom: 3px solid #8D6B4C; /* Olive Green hover effect */
+}
+
+.search input {
+    width: 450px;
+    padding: 8px;
+    border: 1px solid #556B2F; /* Olive Green border */
+    font-size: larger;
+    background-color: #F4F4F9; /* Light input background */
+    color: #333; /* Dark text for readability */
+}
+
+.corner-part {
+    display: flex;
+    align-items: center;
+}
+
+.corner-part span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 40px;
+    height: 30px;
+}
+
+.add {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Main layout */
+.full {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 20px;
+}
+
+.large {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-image {
+    width: 66%;
+    height: 400px;
+    background-color: bisque;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.right-column {
+    margin-left: 10px;
+    width: 33%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    height: 400px;
+}
+
+.right-column div {
+    background-color: #F5F5DC; /* Bisque for right column boxes */
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.bottom div {
+    background-color: #F5F5DC; /* Bisque for bottom boxes */
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* Information column */
+.information {
+    width: 30%;
+    background-color: #F5F5DC; /* Bisque background */
+    height: 529px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box{
+    width: 23%;
+    background-color: antiquewhite;
+    border: 2px solid black;
+
+}
+</style>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar1">
+        <div class="logo">
+     <p>CLOTH AND CULTURE</p>
+        </div>
+        <div class="type">
+            <span>CLOTHING</span>
+            <span>ACCESSORIES</span>
+            <span id="story">STORIES</span>
+           
+        </div>
+        <div class="search">
+    <input type="text" placeholder="SEARCH SOMETHING....">
+        </div>
+        <div class="corner-part">
+            <span id="login">LOGIN</span>
+            <span>ABOUT US</span>
+            <img class="cart" src="cart.jpeg">
+            <span class="add">0</span>
+        </div>
+    </div>
+    <div class="full">
+    <div class="large">
+        <div class="main-container">
+            <div class="main-image"></div>
+            <div class="right-column">
+                <div>Box 1</div>
+                <div>Box 2</div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div>Bottom Box 1</div>
+            <div>Bottom Box 2</div>
+            <div>Bottom Box 3</div>
+        </div>
+    </div>
+    <div class="information"></div>
+    </div>
+    <div class="row1">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    </body>
+    </html>
