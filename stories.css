@@ -1,4 +1,4 @@
-/* Reset some basic styles */
+/* Reset basic styles */
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +7,21 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #FFFDD0; /* Light cream background */
+    
+    background-color:  #D8E3E7;
+}
+.navbar2{
+    width: 100%;
+    height: 15px;
+    background-color:  #556B2F;
 }
 .navbar1{
-    height: 52;
+    height: 52px;
     width: 100%;
     display: flex;
-    background-color: #F5F5DC;
-    color: #556B2F;
-    border-bottom: 1px solid black;
-    
+    background-color: #2E4C6D; /* Dark Blue for header */
+    color: #F4F4F9; /* Light text color for contrast */
+    border-bottom: 1px solid #556B2F; /* Olive Green for a subtle border */
 }
 .search{
     margin-left: 10px;
@@ -27,34 +32,34 @@ body {
 .search input{
     width: 500px;
     padding: 5px;
-    border: none;
+    border: 1px solid #556B2F; /* Olive Green border */
     font-size: larger;
+    background-color: #F4F4F9; /* Light input background */
+    color: #333; /* Dark text for readability */
 }
 .logo{
     width: 75px;
     height: 65px;
-    background-color: bisque;
+    background-color: #F5F5DC; /* Bisque */
     border-radius: 50%;
     text-align: center;
     align-content: center;
     font-size: 12px;
-    color: aqua;
+    color: #2E4C6D; /* Dark Blue for logo text */
     margin-right: 30px;
     margin-left: 10px;
-    
 }
 .logo:hover{
-    border: 2px solid white;
+    border: 2px solid #F4F4F9; /* Subtle hover effect with a white border */
 }
-.type,.corner-part{
+.type, .corner-part{
     width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 span:hover{
-    border-bottom: 3px solid rgb(25, 48, 25) ;
+    border-bottom: 3px solid #8D6B4C; /* Darker Olive Green on hover */
 }
 span{
     padding: 7px;
@@ -64,9 +69,9 @@ span{
     width: 400px;
 }
 .cart{
-width: 40px;
-height: 30px;
-margin-left: 30px;
+    width: 40px;
+    height: 30px;
+    margin-left: 30px;
 }
 .add{
     width: 20px;
@@ -74,35 +79,78 @@ margin-left: 30px;
     border: none;
 }
 
-.story-grid,.story-grid1 {
+/* Main grid container for the stories */
+.story-grid, .story-grid1,.story-grid2 ,.story-grid3{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for better responsiveness */
+    gap: 25px; /* More space between story boxes */
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
+/* Story box styling */
 .story-box {
-    background-color: #F7E7CE; /* Pale yellow box */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #E1DCD4; /* Pale yellow box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
     padding: 20px;
-    transition: transform 0.2s, box-shadow 0.2s;
-    min-height: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 350px;
+    text-align: center; /* Center-align text */
 }
 
+/* Hover effect on story boxes */
+.story-box:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger hover shadow */
+}
+
+/* Story box title styling */
 .story-box h3 {
     color: #B04A5B; /* Muted red for title */
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Story text styling */
+.story-box p {
+    color: #333;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* Image styling inside the story box */
+.story-box img {
+    height: auto;
+    width: 100%;
+    max-height: 180px; /* Limit the height for consistency */
+    object-fit: cover; /* Ensure images cover the space without distortion */
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
-.story-box p {
-    color: #333;
-    font-size: 14px;
-}
-
-.story-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+    .story-box {
+        min-height: 280px; /* Smaller height for smaller screens */
+        padding: 15px;
+    }
+    
+    .story-box img {
+        max-height: 150px; /* Reduce image height */
+    }
+    
+    .story-box h3 {
+        font-size: 16px;
+    }
+    
+    .story-box p {
+        font-size: 13px;
+    }
 }

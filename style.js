@@ -19,15 +19,43 @@ changes.forEach(change => {
         }
     });
 });
-const directTra=document.getElementById('tra');
-directTra.addEventListener('click',function(){
-    window.location.href="shopping.html";
+
+
+const redirectWithZoom = (targetUrl) => {
+    document.body.classList.add('zoom-out-active');
+    setTimeout(() => {
+        window.location.href = targetUrl;
+    }, 500); // Match this duration with the CSS transition duration
+};
+
+const directTra = document.getElementById('tra');
+directTra.addEventListener('click', function() {
+    redirectWithZoom("shopping.html");
 });
-const loginpg=document.getElementById('login');
-loginpg.addEventListener('click',function(){
-    window.location.href="loginpg.html";
+
+const loginpg = document.getElementById('login');
+loginpg.addEventListener('click', function() {
+    redirectWithZoom("loginpg.html");
 });
-const stories=document.getElementById('story');
-stories.addEventListener('click',function(){
-    window.location.href="stories.html";
+
+const stories = document.getElementById('story');
+stories.addEventListener('click', function() {
+    redirectWithZoom("stories.html");
 });
+
+const onam = document.querySelector('.row11');
+if (onam) {
+    onam.addEventListener('click', function() {
+        redirectWithZoom("onam1.html");
+    });
+}
+
+const diwali = document.querySelector('.class31');
+if (diwali) {
+    diwali.addEventListener('click', function() {
+        redirectWithZoom("diwali1.html");
+    });
+}
+
+
+

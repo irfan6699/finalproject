@@ -6,7 +6,18 @@ let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
 let products = [];
 let cart = [];
-
+let home=document.querySelector(`.logo`);
+home.addEventListener("click",()=>{
+    window.location.href="index.html";
+})
+let login=document.getElementById(`login`);
+login.addEventListener("click",()=>{
+    window.location.href="loginpg.html";
+})
+let stories=document.getElementById(`story`);
+stories.addEventListener("click",()=>{
+    window.location.href="stories.html";
+})
 
 iconCart.addEventListener('click', () => {
     body.classList.toggle('showCart');
@@ -84,9 +95,9 @@ const addCartToHTML = () => {
                 </div>
                 <div class="totalPrice">${info.price * item.quantity}</div>
                 <div class="quantity">
-                    <span class="minus"><</span>
-                    <span>${item.quantity}</span>
-                    <span class="plus">></span>
+                    <span class="minus">-</span>
+                    <span class="number">${item.quantity}</span>
+                    <span class="plus">+</span>
                 </div>
             `;
         })
