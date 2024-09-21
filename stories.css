@@ -15,69 +15,7 @@ body {
     height: 15px;
     background-color:  #556B2F;
 }
-.navbar1{
-    height: 52px;
-    width: 100%;
-    display: flex;
-    background-color: #2E4C6D; /* Dark Blue for header */
-    color: #F4F4F9; /* Light text color for contrast */
-    border-bottom: 1px solid #556B2F; /* Olive Green for a subtle border */
-}
-.search{
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.search input{
-    width: 500px;
-    padding: 5px;
-    border: 1px solid #556B2F; /* Olive Green border */
-    font-size: larger;
-    background-color: #F4F4F9; /* Light input background */
-    color: #333; /* Dark text for readability */
-}
-.logo{
-    width: 75px;
-    height: 65px;
-    background-color: #F5F5DC; /* Bisque */
-    border-radius: 50%;
-    text-align: center;
-    align-content: center;
-    font-size: 12px;
-    color: #2E4C6D; /* Dark Blue for logo text */
-    margin-right: 30px;
-    margin-left: 10px;
-}
-.logo:hover{
-    border: 2px solid #F4F4F9; /* Subtle hover effect with a white border */
-}
-.type, .corner-part{
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-span:hover{
-    border-bottom: 3px solid #8D6B4C; /* Darker Olive Green on hover */
-}
-span{
-    padding: 7px;
-    margin-right: 5px;
-}
-.search{
-    width: 400px;
-}
-.cart{
-    width: 40px;
-    height: 30px;
-    margin-left: 30px;
-}
-.add{
-    width: 20px;
-    height: 30px;
-    border: none;
-}
+
 
 /* Main grid container for the stories */
 .story-grid, .story-grid1,.story-grid2 ,.story-grid3{

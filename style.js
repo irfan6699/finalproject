@@ -28,20 +28,7 @@ const redirectWithZoom = (targetUrl) => {
     }, 500); // Match this duration with the CSS transition duration
 };
 
-const directTra = document.getElementById('tra');
-directTra.addEventListener('click', function() {
-    redirectWithZoom("shopping.html");
-});
 
-const loginpg = document.getElementById('login');
-loginpg.addEventListener('click', function() {
-    redirectWithZoom("loginpg.html");
-});
-
-const stories = document.getElementById('story');
-stories.addEventListener('click', function() {
-    redirectWithZoom("stories.html");
-});
 
 const onam = document.querySelector('.row11');
 if (onam) {
