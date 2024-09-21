@@ -1,4 +1,3 @@
-// Slider functionality
 const slider = document.querySelector('.slider');
 let count1 = 0;
 
@@ -14,6 +13,7 @@ fetch('navbar.html')
     runafterattach();
 })
 
+
 setInterval(changeImage, 3000);
 function runafterattach(){
 // Change heart icon functionality
@@ -23,6 +23,17 @@ changes.forEach(change => {
         change.src = change.src.includes('black.png') ? 'Heart.png' : 'black.png';
     });
 });
+/*const callcart = document.querySelector('.icon-cart');
+
+const closeCart = document.querySelector('.close');
+const body = document.querySelector('body');
+callcart.addEventListener("click", () => {
+    body.classList.toggle('showCart');
+});
+closeCart.addEventListener('click', () => {
+    body.classList.toggle('showCart');
+});*/
+
 // Change heart icon functionality
 
 // Redirect with zoom effect
@@ -57,6 +68,12 @@ const stories = document.getElementById('story');
 if (stories) {
     stories.addEventListener('click', () => redirectWithZoom("stories.html"));
 }
+fetch('addtocart.js')
+    .then(response => response.text())
+    .then(data => {
+        eval(data);  // Execute the script
+    })
+    .catch(error => console.error('Error loading script:', error));
 }
 
 // stories video function
@@ -89,5 +106,10 @@ const diwali = document.querySelector('.class31');
 if (diwali) {
     diwali.addEventListener('click', () => redirectWithZoom("diwali1.html"));
 }
+
+
+
+
+
 
 
